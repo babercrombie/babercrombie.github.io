@@ -1,11 +1,11 @@
-<script src="https://aframe.io/releases/0.7.0/aframe.min.js"></script>
-<script src="js/aframe-extras.min.js"></script>
+<script src="https://aframe.io/releases/0.7.1/aframe.min.js"></script>
 <script src="https://jeromeetienne.github.io/AR.js/aframe/build/aframe-ar.js"></script>
-<a-scene>
-  <a-scene embedded arjs>
-<!-- mskull -->
-<!--<a-asset-item id="mskull-obj" src="models/mskull.OBJ"></a-asset-item>-->
-<!--<img id="david-texture" src="textures/david.jpg">-->
-<!-- mskull -->
-    <a-marker-camera preset='hiro'></a-marker-camera>
+  <script src="js/aframe-extras.min.js"></script>
+<body style='margin : 0px; overflow: hidden;'>
+<a-scene embedded arjs>
+<a-assets>
+<a-asset-item id="mskull-obj" src="models/mskull.OBJ"></a-asset-item>
+</a-assets>
+
+<a-marker-camera preset='hiro'></a-marker-camera>
 </a-scene>
