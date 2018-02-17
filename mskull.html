@@ -1,14 +1,12 @@
- <script src="https://aframe.io/releases/0.7.0/aframe.min.js"></script>
+  <script src="https://aframe.io/releases/0.6.0/aframe.min.js"></script>
 <script src="https://jeromeetienne.github.io/.../build/aframe-ar.js"></script>
 <body style='margin : 0px; overflow: hidden;'>
 <a-scene embedded arjs>
 <a-assets>
-<a-asset-item id="tree-obj" src="https://cdn.rawgit
-                                 .com/babercrombie/babercrombie.github.io/master/models/sonic-the-hedgehog.obj"></a-asset-item>
-<a-asset-item id="tree-mtl" src="https://cdn.rawgit.com/babercrombie/babercrombie.github.io/master/models/sonic-the-hedgehog.mtl"></a-asset-item>
+<a-asset-item id="tree-obj" src="/path/to/tree.obj"></a-asset-item>
+<a-asset-item id="tree-mtl" src="/path/to/tree.mtl"></a-asset-item>
 </a-assets>
 <a-entity obj-model="obj: #tree-obj; mtl: #tree-mtl"></a-entity>
 <a-marker-camera preset='hiro'></a-marker-camera>
 </a-scene>
 </body>
-
